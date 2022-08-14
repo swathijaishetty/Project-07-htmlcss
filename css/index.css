@@ -156,3 +156,15 @@ button{
     left:380px;
 
 }
+
+@media screen and (max-width:1200px){
+    .headphone-div>img+div+img,.dots,.action-btn,.nav-items{
+        display: none;
+    }
+
+    .nav-items+img{
+        position: fixed;
+        right:70px;
+    }
+
+}
