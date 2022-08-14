@@ -158,13 +158,72 @@ button{
 }
 
 @media screen and (max-width:1200px){
-    .headphone-div>img+div+img,.dots,.action-btn,.nav-items{
+    /* .headphone-div>img+div+img,.dots,.action-btn,.nav-items{
         display: none;
+    } */
+    .nav-items{
+       display: none;
     }
-
+  
     .nav-items+img{
-        position: fixed;
-        right:70px;
+        position: absolute;
+        right:10px;
     }
+    .left-section{
+        width:500px;
+    }
+    .text{
+        width:500px;
+    }
+ 
+}
+
+@media screen and (max-width:800px){
+
+body{
+    overflow-x: hidden;
+}
+.intro-section{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.left-section{
+    position: relative;
+    top:600px;
+    width:500px;
+}
+h1{
+    font-size: 30px;  
+  }
+
+.intro-section{
+    margin-left:-40px ;
+}
+.text{
+    width:400px;
+}
+.headphone-div>img+div+img{
+    width:450px;
+    margin-left: 30px;
+}
+.headphone-div>img{
+    width:100px;
+    margin-left: 50px;
+}
+.discount-content h1{
+    font-size: 20px;
+}
+.discount-content h4{
+    font-size: 10px;
+}
+.discount-content{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.nav-items+img{
+    position: relative;
+    left:60px;
+}
 
 }
+
